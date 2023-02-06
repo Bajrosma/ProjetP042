@@ -1,0 +1,76 @@
+/*
+	Auteur 			: Bajro Osmanovic, Thomas Intriere, Miljana Despotovic
+	Date 			: 23.01.2023
+	Description 	: Stylesheet for the project; Has all the css from bootstrap and my own css
+*/
+
+body
+{
+    margin-top: 0;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #A670C5;
+}
+
+.btn-outline-primary
+{
+    margin-left: 5px;
+    background-color:white ;
+    color:#A670C5 ;
+    border-color:#A670C5 ;
+    font-weight: bold;
+}
+
+h2
+{
+    margin-bottom: 0pt;
+    padding-bottom: 30pt;
+    padding-top: 30pt;
+    padding-left: 30pt;
+
+}
+
+#joinedProfile
+{
+    margin-bottom: 10pt;
+}
+
+.btn-outline-primary:hover
+{
+    background-color:#A670C5;
+    border-color:#A670C5 ;
+}
+
+.navbar
+{
+    background-color: #1E1E1E;
+}
+
+.nav-link
+{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover
+{
+    color: #A670C5;
+}
+
+ul li .nav-link.active
+{
+    background-color:#A670C5;
+	padding:10px;
+	border-radius:2px;
+}
+
+ul li .nav-link.active:hover
+{
+    color: black;
+}
