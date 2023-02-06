@@ -34,7 +34,7 @@
 
    // changing the title od the page
    $pageName="Swipes";
-   $pathCss="";
+   $pathCss="../../resources/css/";
    
   //calling the header, database and configuration file
   require_once("header.php");

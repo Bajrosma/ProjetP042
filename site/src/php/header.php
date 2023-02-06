@@ -22,7 +22,7 @@
 	<!-- The body-->
 	<body class="bg-white text-dark" >
 		<!-- The navigation bar-->
-		<nav class="navbar navbar-expand-lg" style="background-color: #DFDFDF;">
+		<nav class="navbar navbar-expand-lg" style="background-color: #0000;">
 			<div class="container-fluid">
 				<!-- The logo-->
 				<a class="navbar-brand" href="<?=$pathHome // path to the index of the page ?>">

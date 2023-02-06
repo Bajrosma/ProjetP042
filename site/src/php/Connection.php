@@ -1,6 +1,7 @@
 <?php
 //starting the sessions
 session_start();
+
   /**
    * Auteurs : Bajro Osmanovic, Thomas Intriere, Miljana Despotovic
    * Date : 23.01.2023
