@@ -40,24 +40,261 @@
   require_once("src/php/header.php");
 
 ?>
-    <header>
-        <h1>SMATCH</h1>
-        <img class="ProfilPicture" src="userContent/img/R.png" alt="icon profil" width="100px">
-    </header>
     <div class=contener>
-        <h2>Vos coachs préférés :</h2>
-        <hr>
-        <img class="CoachProfilPicutre" src="userContent/img/R.png" alt="icon profil" width="100px">   
-        <img class="CoachProfilPicutre" src="userContent/img/R.png" alt="icon profil" width="100px">
-        <img class="CoachProfilPicutre" src="userContent/img/R.png" alt="icon profil" width="100px">
-        <hr>
-        <h2>Vos prochaines séances :</h2>
-        <hr>
-        <img class="GymPlacePicutre" src="userContent/img/R.png" alt="icon profil" width="100px">   
-        <img class="GymPlacePicutre" src="userContent/img/R.png" alt="icon profil" width="100px">
-        <hr>
-    </div>
+        <div class="container mt-3 mb-4">
+            <div class="col-lg-9 mt-4 mt-lg-0">
+            <h5 class="card-title text-uppercase mb-0">Vos coachs préférés :</h5>
 
+                <div class="row">
+                <div class="col-md-12">
+                    <div class="user-dashboard-info-box table-responsive mb-0 bg-white p-4 shadow-sm">
+                    <table class="table manage-candidates-top mb-0">
+
+                        <!-- coach one-->
+                        <tbody>
+                        <tr class="candidates-list">
+                            <td class="title">
+                            <div class="thumb">
+                                <img class="img-fluid" src="userContent/img/coach1.jpg" alt="">
+                            </div>
+                            <div class="candidate-list-details">
+                                <div class="candidate-list-info">
+                                <div class="candidate-list-title">
+                                    <!-- put the link to the profile of the coach when clicking on his link maybe?-->
+                                    <h5 class="mb-0"><a href="#">Marc Zuc</a></h5>
+                                </div>
+                                <div class="candidate-list-option">
+                                    <ul class="list-unstyled">
+                                    <li><i class="fas fa-filter pr-1"></i>Yoga expert</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>                           
+                            </td>
+                            <td class="candidate-list-favourite-time text-center">
+                            <a class="candidate-list-favourite order-2 text-danger" href="#"><i class="fas fa-heart"></i></a>
+                            <!-- Put the link to the page to book another meeting with the coach-->
+                            <button type="button" class="btn btn-light">Reserver</button>
+                            </td>    
+                        </tr>
+                        
+                        <!-- coach 2-->
+                        <tr class="candidates-list">
+                            <td class="title">
+                            <div class="thumb">
+                                <img class="img-fluid" src="userContent/img/coach2.jpg" alt="">
+                            </div>
+                            <div class="candidate-list-details">
+                                <div class="candidate-list-info">
+                                <div class="candidate-list-title">
+                                    <!-- put the link to the profile of the coach when clicking on his link maybe?-->
+                                    <h5 class="mb-0"><a href="#">Kevin Heart</a></h5>
+                                </div>
+                                <div class="candidate-list-option">
+                                    <ul class="list-unstyled">
+                                    <li><i class="fas fa-filter pr-1"></i>Jogging coach</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>                           
+                            </td>
+                            <td class="candidate-list-favourite-time text-center">
+                            <a class="candidate-list-favourite order-2 text-danger" href="#"><i class="fas fa-heart"></i></a>
+                            <!-- Put the link to the page to book another meeting with the coach-->
+                            <button type="button" class="btn btn-light">Reserver</button>
+                            </td>    
+                        </tr>
+
+                        <!-- coach 3-->
+                        <tr class="candidates-list">
+                            <td class="title">
+                            <div class="thumb">
+                                <img class="img-fluid" src="userContent/img/coach3.jpg" alt="">
+                            </div>
+                            <div class="candidate-list-details">
+                                <div class="candidate-list-info">
+                                <div class="candidate-list-title">
+                                    <!-- put the link to the profile of the coach when clicking on his link maybe?-->
+                                    <h5 class="mb-0"><a href="#">Stephanie Brooks</a></h5>
+                                </div>
+                                <div class="candidate-list-option">
+                                    <ul class="list-unstyled">
+                                    <li><i class="fas fa-filter pr-1"></i>Pilates teacher</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>                           
+                            </td>
+                            <td class="candidate-list-favourite-time text-center">
+                            <a class="candidate-list-favourite order-2 text-danger" href="#"><i class="fas fa-heart"></i></a>
+                            <!-- Put the link to the page to book another meeting with the coach-->
+                            <button type="button" class="btn btn-light">Reserver</button>
+                            </td>    
+                        </tr>
+
+                        <!-- coach 4-->
+                        <tr class="candidates-list">
+                            <td class="title">
+                            <div class="thumb">
+                                <img class="img-fluid" src="userContent/img/coach4.jpg" alt="">
+                            </div>
+                            <div class="candidate-list-details">
+                                <div class="candidate-list-info">
+                                <div class="candidate-list-title">
+                                    <!-- put the link to the profile of the coach when clicking on his link maybe?-->
+                                    <h5 class="mb-0"><a href="#">name</a></h5>
+                                </div>
+                                <div class="candidate-list-option">
+                                    <ul class="list-unstyled">
+                                    <li><i class="fas fa-filter pr-1">Volleyball coach</i></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>                           
+                            </td>
+                            <td class="candidate-list-favourite-time text-center">
+                            <a class="candidate-list-favourite order-2 text-danger" href="#"><i class="fas fa-heart"></i></a>
+                            <!-- Put the link to the page to book another meeting with the coach-->
+                            <button type="button" class="btn btn-light">Reserver</button>
+                            </td>    
+                        </tr>
+                        </tbody>
+                    </table>   
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <!-- activities -->
+        <div class=contener>
+        <div class="container mt-3 mb-4">
+            <div class="col-lg-9 mt-4 mt-lg-0">
+            <h5 class="card-title text-uppercase mb-0">Vos prochaines séances :</h5>
+
+                <div class="row">
+                <div class="col-md-12">
+                    <div class="user-dashboard-info-box table-responsive mb-0 bg-white p-4 shadow-sm">
+                    <table class="table manage-candidates-top mb-0">
+
+                        <!-- Activity one-->
+                        <tbody>
+                        <tr class="candidates-list">
+                            <td class="title">
+                            <div class="thumb">
+                                <img class="img-fluid" src="userContent/img/coach1.jpg" alt="">
+                            </div>
+                            <div class="candidate-list-details">
+                                <div class="candidate-list-info">
+                                <div class="candidate-list-title">
+                                    <!-- put the link to the profile of the coach when clicking on his link maybe?-->
+                                    <h5 class="mb-0"><a href="#">Yoga</a></h5>
+                                </div>
+                                <div class="candidate-list-option">
+                                    <ul class="list-unstyled">
+                                    <li><i class="fas fa-filter pr-1"></i>Date: 12.02.2023</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>                           
+                            </td>
+                            <td class="candidate-list-favourite-time text-center">
+                            <!-- Put the link to the page to book another meeting with the coach-->
+                            <button type="button" class="btn btn-light">Détails</button>
+                            <button type="button" class="btn btn-light">Annuler</button>
+                            </td>    
+                        </tr>
+                        
+                        <!-- activity 2-->
+                        <tr class="candidates-list">
+                            <td class="title">
+                            <div class="thumb">
+                                <img class="img-fluid" src="userContent/img/pilates.jpg" alt="">
+                            </div>
+                            <div class="candidate-list-details">
+                                <div class="candidate-list-info">
+                                <div class="candidate-list-title">
+                                    <!-- put the link to the profile of the coach when clicking on his link maybe?-->
+                                    <h5 class="mb-0"><a href="#">Pilates</a></h5>
+                                </div>
+                                <div class="candidate-list-option">
+                                    <ul class="list-unstyled">
+                                    <li><i class="fas fa-filter pr-1"></i>Date: 12.02.2023</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>                           
+                            </td>
+                            <td class="candidate-list-favourite-time text-center">
+                            <!-- Put the link to the page to book another meeting with the coach-->
+                            <button type="button" class="btn btn-light">Détails</button>
+                            <button type="button" class="btn btn-light">Annuler</button>
+                            </td>    
+                        </tr>
+
+                        <!-- Activity 3-->
+                        <tr class="candidates-list">
+                            <td class="title">
+                            <div class="thumb">
+                                <img class="img-fluid" src="userContent/img/coach1.jpg" alt="">
+                            </div>
+                            <div class="candidate-list-details">
+                                <div class="candidate-list-info">
+                                <div class="candidate-list-title">
+                                    <!-- put the link to the profile of the coach when clicking on his link maybe?-->
+                                    <h5 class="mb-0"><a href="#">Workout Volleyball style</a></h5>
+                                </div>
+                                <div class="candidate-list-option">
+                                    <ul class="list-unstyled">
+                                    <li><i class="fas fa-filter pr-1"></i>Date: 12.02.2023</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>                           
+                            </td>
+                            <td class="candidate-list-favourite-time text-center">
+                            <!-- Put the link to the page to book another meeting with the coach-->
+                            <button type="button" class="btn btn-light">Détails</button>
+                            <button type="button" class="btn btn-light">Annuler</button>
+                            </td>    
+                        </tr>
+
+                        <!-- Activity 4-->
+                        <tr class="candidates-list">
+                            <td class="title">
+                            <div class="thumb">
+                                <img class="img-fluid" src="userContent/img/jogging.jpg" alt="">
+                            </div>
+                            <div class="candidate-list-details">
+                                <div class="candidate-list-info">
+                                <div class="candidate-list-title">
+                                    <!-- put the link to the profile of the coach when clicking on his link maybe?-->
+                                    <h5 class="mb-0"><a href="#">Jogging Session</a></h5>
+                                </div>
+                                <div class="candidate-list-option">
+                                    <ul class="list-unstyled">
+                                    <li><i class="fas fa-filter pr-1"></i>Date: 12.02.2023</li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>                           
+                            </td>
+                            <td class="candidate-list-favourite-time text-center">
+                            <!-- Put the link to the page to book another meeting with the coach-->
+                            <button type="button" class="btn btn-light">Détails</button>
+                            <button type="button" class="btn btn-light">Annuler</button>
+                            </td>    
+                        </tr>
+                        </tbody>
+                    </table>   
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
 <?php
 //including the footer of the page
 include("src/php/footer.php");

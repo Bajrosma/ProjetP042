@@ -19,7 +19,7 @@ session_start();
 </head>
 <body>
     <header>
-        <h1>SMATCH - Connection</h1>
+        <h1>SPORTMATCH - Connection</h1>
         <nav>
             <a href="../../index.php">Acceuil</a>
             <a href="Connection.php">Connecte toi</a>

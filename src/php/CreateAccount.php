@@ -19,7 +19,7 @@ session_start();
 </head>
 <body>
     <header>
-        <h1>SMATCH - création d'un compte</h1>
+        <h1>SPORTMATCH - création d'un compte</h1>
         <nav>
             <a href="../../index.php">Acceuil</a>
             <a href="Connection.php">Connecte toi</a>

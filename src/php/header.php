@@ -17,7 +17,7 @@
 			<link href="<?= $pathCss?>styleSheetSport.css" rel="stylesheet" type="text/css"/>
 			<title><?= $pageName //the title of the page?></title>
 			<!-- add icon link -->
-			<link rel = "icon" type = "image/x-icon" href = "<?= $pathIcon ?>book.png">
+			<link rel = "icon" type = "image/x-icon" href = "<?= $pathIcon ?>book.jpg">
 	</head>
 	<!-- The body-->
 	<body class="bg-white text-dark" >
@@ -26,7 +26,7 @@
 			<div class="container-fluid">
 				<!-- The logo-->
 				<a class="navbar-brand" href="<?=$pathHome // path to the index of the page ?>">
-      				<img src="<?= $pathIcon ?>logo.png" alt="Logo" width="60" height="54">
+      				<img src="<?= $pathIcon ?>logo.jpg" alt="Logo" width="60" height="54">
     			</a>
 
 				<!-- The navbar options-->
