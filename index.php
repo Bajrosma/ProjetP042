@@ -1,5 +1,6 @@
   
   <?php
+
   //starting the sessions
   session_start();
 
@@ -9,7 +10,10 @@
    * Description : the index of the website/ the home page
    */
 
-   //the path of the pages for the header
+  require_once("src/php/ConnectPage/connectDataBase.php");
+  require("src/php/GetPages/GetUsers.php");
+  
+  //the path of the pages for the header
    //the path for the list of the books
    $pathSwipe="src/php/"; 
    //the path for home page
@@ -35,6 +39,9 @@
    // changing the title od the page
    $pageName="Accueil";
    $pathCss="resources/css/";
+   
+  /*$coachs = GetUsers();
+  var_dump($coachs);*/
    
   //calling the header, database and configuration file
   require_once("src/php/header.php");
